@@ -1,0 +1,15 @@
+.footer {
+    border-top: 1px solid black; 
+    padding-top: 8px;
+}
+
+.footer .footer-item {
+    text-align: center;
+    margin: 10px 20px;
+    padding: 2px;
+}
+.footer .footer-item:hover {
+    cursor: pointer;
+    background-color: gray;
+    color: #fff;
+}
