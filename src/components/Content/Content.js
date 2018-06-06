@@ -3,7 +3,9 @@ import "./Content.css";
 import PropTypes from 'prop-types';
 import image from "./img/no-photo-image.jpg";
 
+//creates the listings
 const Content = props => {
+  //decided not to alter content. Meat based Lorem Ipsum was excellent enough
   let posts = props.resources.map(post => {
     return (
       <div className="col-md-4" key={post.title}>
@@ -22,6 +24,7 @@ const Content = props => {
   );
 };
 
+//make sure we receive an array of objects
 Content.propTypes = {
   resources: PropTypes.array
 }
